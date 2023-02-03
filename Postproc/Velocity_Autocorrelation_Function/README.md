@@ -1,5 +1,5 @@
 # Velocity Autocorrelation Function (VACF)
-The VACF is an important tool to analyze the atom vibrations in the MD simulations. The script `cal_VACF.py` will output the VACF of different atoms seperated by atom ID and three axis. Furthermore, it will also calculated the FFT of VACF and give the Lorentz distribution fitting of it. Besides, the force constants of all the atoms in your system will be also calculated.
+The VACF is an important tool to analyze the atom vibrations in the MD simulations. The script `acf_v8.2_noadd0.py` will output the VACF of different atoms seperated by atom ID and three axis. Furthermore, it will also calculated the FFT of VACF and give the Lorentz distribution fitting of it. Besides, the force constants of all the atoms in your system will be also calculated.
 
 ## Usage 
 ```shell
