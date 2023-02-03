@@ -33,12 +33,12 @@ ChipSum's toolkits serve computational chemistry applications in CDCS, including
 ### Spectral Energy Density (SED)
 `cal_SED.py` is used to calculate the SED from MD trajectory and then Phonon dispersion and Phonon density of states (DOS).<br>
 
-   - **Note:** Details are in the directory of `Postproc/SED/`
+   - **Note:** Details are in the directory of `Postproc/Spectral_Energy_Density/`
    - **Example:** SWNT
 
 ![SWNT](https://github.com/EltonYH/ChipSum.MD/blob/main/Postproc/img/swnt_small.png)<br>
 
 ### Velocity Autocorrelation Function (VACF)
-The VACF is an important tool to analyze the atom vibrations in the MD simulations. The script `cal_VACF.py` will output the VACF of different atoms seperated by atom ID and three axis. Furthermore, it will also calculated the FFT of VACF and give the Lorentz distribution fitting of it. Besides, the force constants of all the atoms in your system will be also calculated.
+The VACF is an important tool to analyze the atom vibrations in the MD simulations. The script `acf_v8.2_noadd0.py` will output the VACF of different atoms seperated by atom ID and three axis. Furthermore, it will also calculated the FFT of VACF and give the Lorentz distribution fitting of it. Besides, the force constants of all the atoms in your system will be also calculated.
 
-   - **Note:** Details are in the directory of `Postproc/VACF/`
+   - **Note:** Details are in the directory of `Postproc/Velocity_Autocorrelation_Function/`
