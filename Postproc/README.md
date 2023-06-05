@@ -14,7 +14,7 @@ Some scripts to deal with the problems occur after calculation or simulation, su
 `bond_v2.0.py` is used to calculate and analyze the bond length from `.pos` files obtained from `output_pos.py` script which transforms the VASP molecular dynamic simulation output file `XDATCAR` to `.pos` file using: `python3 output_pos.py`.<br>
 
    - **Usage:** `python3 bond_v2.0.py ele1 ele2 step0 step1`
-   - **Note:** `ele1` and `ele2` are element symblo case-insensitive. The detials are in the scripts.
+   - **Note:** `ele1` and `ele2` are element symblo case-insensitive. `step0` and `step1` are the initial and final MD step to be calculated the bond length. Note that the steps order are reverse, e.g, the `step1=0` means calculation is performed until the final MD step. The detials are in the scripts.
 
 ### Fast Fourier Transform (FFT)
 `FFT.py` is used to make FFT of atom position from `MSDVASP.py` and `MSDQE.py` output file `.pos`.<br>
