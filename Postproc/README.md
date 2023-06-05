@@ -11,9 +11,9 @@ Some scripts to deal with the problems occur after calculation or simulation, su
    - **Note:** `XDATCAR` file shoule be in the directory. The detials are in the scripts. 
 
 ### Bond length
-`bondVASP.py` is used to calculate and analyze the bond length from VASP molecular dynamic simulation output file `XDATCAR`.<br>
+`bond_v2.0.py` is used to calculate and analyze the bond length from `.pos` files obtained from `output_pos.py` script which transforms the VASP molecular dynamic simulation output file `XDATCAR` to `.pos` file using: `python3 output_pos.py`.<br>
 
-   - **Usage:** `python3 bondVASP.py ele1 ele2`
+   - **Usage:** `python3 bond_v2.0.py ele1 ele2 step0 step1`
    - **Note:** `ele1` and `ele2` are element symblo case-insensitive. The detials are in the scripts.
 
 ### Fast Fourier Transform (FFT)
